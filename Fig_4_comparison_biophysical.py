@@ -1,5 +1,5 @@
 """
-This script generates Fig. 3 in Ran et al., showing comparisons of environmental conditions
+This script generates Fig. 4 in Ran et al., showing comparisons of environmental conditions
 (climate and soil) across different studies:
 - Column 1: Temperature-Precipitation scatter plots
 - Column 2: Aridity index histograms
@@ -391,4 +391,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
