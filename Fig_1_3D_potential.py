@@ -31,7 +31,7 @@ from pathlib import Path
 
 #  SETTINGS
 CONFIG = {
-    # Input data paths (modify these to point to your data)
+    # Input data paths
     "height_path": "data/P_Height.tif",          
     "cover_path": "data/P_Cover.tif",             
     "height_masked_path": "data/P_Height_mskd.tif", 
@@ -39,7 +39,7 @@ CONFIG = {
     
     # Output settings
     "output_dir": "output/",
-    "output_filename": "Fig_2_bivariate_map.png",
+    "output_filename": "Fig_1_bivariate_map.png",
     "output_dpi": 300,
     
     # Visualization parameters
