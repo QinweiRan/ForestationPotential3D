@@ -41,19 +41,16 @@ CONFIG = {
         "mo": ("fao_add_mo.tif", "fao_mns_mo.tif"),
         "walker": ("fao_add_walker.tif", "fao_mns_walker.tif"),
         "flro": ("fao_add_flro.tif", "fao_mns_flro.tif"),
-    },
-    
-    # Background map file
-    "world_background": "zero.tif",
-    
+    },    
+   
     # CSV data files
-    "bar_data_csv": "compare_area_5studies.csv",
-    "climate_zone_csv": "area_climatezone.csv",
+    "bar_data_csv": "Fig3_compare_area.csv",
+    "climate_zone_csv": "Fig3_compare_area_climatezone.csv",
     
     # Output settings
     "output_dir": "output/",
-    "output_filename": "Fig_study_comparison",
-    "output_formats": ["png"],  # Can add "tif" if needed
+    "output_filename": "comparison_spatial",
+    "output_formats": ["png"], 
     "output_dpi": 300,
     
     # Figure settings
@@ -435,3 +432,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
