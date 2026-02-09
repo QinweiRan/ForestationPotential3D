@@ -37,10 +37,10 @@ CONFIG = {
     
     "study_files": {
         "bastin": ("fao_add_bastin.tif", "fao_mns_bastin.tif"),
-        "ng": ("fao_add_ng.tif", "fao_mns_ng.tif"),
+        "tölgyesi": ("fao_add_tolgyesi.tif", "fao_mns_tolgyesi.tif"),
         "mo": ("fao_add_mo.tif", "fao_mns_mo.tif"),
         "walker": ("fao_add_walker.tif", "fao_mns_walker.tif"),
-        "flro": ("fao_add_wri.tif", "fao_mns_wri.tif"),
+        "flro": ("fao_add_flro.tif", "fao_mns_flro.tif"),
     },
     
     # Background map file
@@ -377,7 +377,7 @@ def main():
     # Layout: 5 maps in 3x2 grid (position 6 is for climate chart)
     layout = [
         (0, 0),  # A - Bastin
-        (0, 1),  # B - NG
+        (0, 1),  # B - Tölgyesi
         (1, 0),  # C - MO
         (1, 1),  # D - Walker
         (2, 0),  # E - FLRO
@@ -433,4 +433,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
