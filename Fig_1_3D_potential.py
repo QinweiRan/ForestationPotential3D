@@ -39,7 +39,7 @@ CONFIG = {
     
     # Output settings
     "output_dir": "output/",
-    "output_filename": "Fig_1_bivariate_map.png",
+    "output_filename": "Fig1_forestation_potential_biVar.png",
     "output_dpi": 300,
     
     # Visualization parameters
