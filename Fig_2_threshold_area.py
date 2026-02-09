@@ -22,8 +22,8 @@ import os
 #  SETTINGS
 CONFIG = {
     # Input data paths
-    "height_area_csv": "data/H_AREA.csv",  
-    "cover_area_csv": "data/C_AREA.csv",  
+    "height_area_csv": "data/Fig2_H_AREA.csv",  
+    "cover_area_csv": "data/Fig2_C_AREA.csv",  
     
     # Output settings
     "output_dir": "output/",
@@ -148,4 +148,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
