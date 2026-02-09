@@ -41,15 +41,15 @@ CONFIG = {
             "labels": ["Both", "Bastin et al.", "This study"]
         },
         {
-            "add": "fao_add_ng.tif",
-            "mns": "fao_mns_ng.tif",
-            "title": "NG",
+            "add": "fao_add_tolgyesi.tif",
+            "mns": "fao_mns_tolgyesi.tif",
+            "title": "Tölgyesi",
             "labels": ["Both", "Tölgyesi et al.", "This study"]
         },
         {
             "add": "fao_add_mo.tif",
             "mns": "fao_mns_mo.tif",
-            "title": "MO",
+            "title": "Mo",
             "labels": ["Both", "Mo et al.", "This study"]
         },
         {
@@ -76,7 +76,7 @@ CONFIG = {
     
     # Output settings
     "output_dir": "output/",
-    "output_filename": "fig_site_condition_comparison.png",
+    "output_filename": "comparison_biophysical.png",
     "output_dpi": 300,
     
     # Figure settings
@@ -393,3 +393,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
