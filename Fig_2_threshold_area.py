@@ -27,7 +27,7 @@ CONFIG = {
     
     # Output settings
     "output_dir": "output/",
-    "output_filename": "forestation_area_curve.png",
+    "output_filename": "Fig2_forestation_area_curve.png",
     "output_dpi": 300,
     
     # Plot settings
@@ -150,3 +150,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
